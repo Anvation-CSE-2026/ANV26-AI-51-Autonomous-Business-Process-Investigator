@@ -1,9 +1,12 @@
 # ROOTLENS
+
+### [Open the live website](https://autonomous-business-process-investi.vercel.app)
+
 ### Manufacturing process investigator · controlled local demonstration
 
 RootLens follows synthetic steel-bracket production orders through three separate software workers: **Materials → Production → Quality**. It records real PostgreSQL transactions and bounded database faults, detects unusual durations with per-worker Isolation Forest models, and saves evidence-based investigations.
 
-**Verification status:** source and production frontend build are supplied; database/runtime and rendered-browser acceptance are not verified in the authoring environment. See `docs/VERIFICATION.md` for the exact executed checks. This is a local application, not a hosted demo URL.
+**Verification status:** source and production frontend build are supplied; database/runtime and rendered-browser acceptance are not verified in the authoring environment. See `docs/VERIFICATION.md` for the exact executed checks. The live website is linked above; the documented Docker setup runs the application locally.
 
 ## Switching from the earlier version
 
